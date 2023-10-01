@@ -9,7 +9,7 @@ html {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 4em;
+    padding: 1em 4em;
 }
 
 #story-container{
@@ -22,7 +22,7 @@ html {
     margin-top: 4em;
     width: 50vw;
     height: 10vw;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 215, 0, 0.25);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     display: flex;
     align-items: center;
@@ -112,3 +112,24 @@ img{
 p {
     font-size: 1.4rem;
 }
+
+#noun1-container{
+    background-color: rgba(255, 0, 0, 0.25);
+}
+
+#noun2-container{
+    background-color: rgba(50, 255, 50, 0.25);
+}
+
+#verb-container{
+    background-color: rgba(50, 50, 255, 0.25);
+}
+
+#adj-container{
+    background-color: rgba(0, 255, 255, 0.25);
+}
+
+#setting-container{
+    background-color: rgba(150, 0, 150, 0.25);
+}
+
