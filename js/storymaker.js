@@ -378,15 +378,15 @@ function reset_on_click() {
   chosenSetting.textContent = "";
 
   //clears images and alts
-  document.getElementById("noun1image").src = "";
+  document.getElementById("noun1image").src = "./resources/images/main-img/noun.png";
   document.getElementById("noun1image").alt = "Select a noun";
-  document.getElementById("verbimage").src = "";
+  document.getElementById("verbimage").src = "./resources/images/main-img/verb.png";
   document.getElementById("verbimage").alt = "Select a verb";
-  document.getElementById("adjimage").src = "";
+  document.getElementById("adjimage").src = "./resources/images/main-img/adj.jpg";
   document.getElementById("adjimage").alt = "Select an adjective";
-  document.getElementById("noun2image").src = "";
+  document.getElementById("noun2image").src = "./resources/images/main-img/noun.png";
   document.getElementById("noun2image").alt = "Select a noun";
-  document.getElementById("settingimage").src = "";
+  document.getElementById("settingimage").src = "./resources/images/main-img/setting.png";
   document.getElementById("settingimage").alt = "Select a setting";
 
   //empties story paragraph
