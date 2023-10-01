@@ -61,7 +61,7 @@ html {
     grid-area: image;
     width: 7vw;
     height: 10vh;
-    border: none;
+    border-radius: 25px;
 }
 
 .para{
