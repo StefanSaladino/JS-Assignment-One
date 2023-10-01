@@ -108,3 +108,7 @@ img{
 .action-button:hover{
     background-color: rgba(250, 81, 81, 0.75);
 }
+
+p {
+    font-size: 1.4rem;
+}
