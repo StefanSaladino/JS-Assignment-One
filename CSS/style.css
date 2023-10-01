@@ -1,0 +1,99 @@
+html {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 2em;
+}
+
+#choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 4em;
+}
+
+#story-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#story{
+    margin-top: 4em;
+    width: 50vw;
+    height: 10vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.word-container{
+    display: grid;
+    grid-template-areas: 
+    "button image sentence";
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 1.5em;
+    width: 50vw;
+    padding: 1em;
+}
+
+.word-button {
+    background-color: rgb(107, 187, 253);
+    color: white;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    grid-area: button;
+    width: 10vw;
+    height: 10vh;
+    margin-bottom: 1em;
+}
+
+.word-button:hover{
+    background-color: rgba(107, 187, 253, 0.75);
+}
+
+.image{
+    grid-area: image;
+    width: 7vw;
+    height: 10vh;
+    border: none;
+}
+
+.para{
+    grid-area: sentence;
+}
+
+#results{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#btn-container {
+    display: flex;
+    flex-direction: row;
+    padding: 0.5em;
+}
+
+.action-button {
+    background-color: rgb(250, 81, 81);
+    color: white;
+    padding: 4px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    grid-area: button;
+    width: 10vw;
+    height: 10vh;
+    margin: 0 1em;
+}
+
+.action-button:hover{
+    background-color: rgba(250, 81, 81, 0.75);
+}
