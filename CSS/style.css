@@ -59,6 +59,7 @@ html {
 .word-button:hover{
     background-color: rgba(107, 187, 253, 0.75);
     text-decoration: underline;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 .image{
@@ -109,6 +110,7 @@ img{
 .action-button:hover{
     background-color: rgba(250, 81, 81, 0.75);
     text-decoration: underline;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
 }
 
 p {
